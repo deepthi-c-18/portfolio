@@ -3,102 +3,108 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Deepthi C — Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Deepthi C – Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <div class="wrapper">
-      <header class="header">
-        <div class="profile">
-          <div class="avatar">DC</div>
-          <div class="meta">
-            <h1 class="fullname">Deepthi C</h1>
-            <p class="title">Full‑Stack Java Developer</p>
-            <p class="location">Based in India</p>
-            <div class="contact">
-              <a href="mailto:deepthic1809@gmail.com">deepthic1809@gmail.com</a>
-              <span>•</span>
-              <a href="tel:8123402375">8123402375</a>
-            </div>
-            <p><a class="btn" href="#contact">Contact</a> <a class="btn ghost" href="#work">Projects</a></p>
-          </div>
-        </div>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">Deepthi  C</div>
+        <nav class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
       </header>
 
-      <main class="main">
-        <section class="card summary">
-          <h2>Professional Summary</h2>
-          <p>Experienced Full‑Stack Java developer with a focus on building scalable web applications using Java and Maven. Skilled in backend design, REST APIs, and crafting clean front-end experiences.</p>
-        </section>
-
-        <section class="card grid">
-          <div>
-            <h3>Experience</h3>
-            <div class="item">
-              <h4>Senior Developer — Example Corp</h4>
-              <p class="muted">2022 — Present</p>
-              <p>Working on enterprise web applications, backend services, and deployment pipelines.</p>
-            </div>
-            <div class="item">
-              <h4>Developer — Another Co</h4>
-              <p class="muted">2019 — 2022</p>
-              <p>Built RESTful services and contributed to full-stack features.</p>
-            </div>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Full-Stack Java Developer</p>
+          <h1>Building intelligent web applications with Java, Spring Boot, and modern UI.</h1>
+          <p class="hero-text">I craft polished enterprise solutions, AI-integrated backends, and responsive customer-facing web experiences.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="#contact">Get in touch</a>
           </div>
+        </div>
 
-          <aside>
-            <h3>Skills</h3>
-            <ul class="skills">
-              <li>Java</li>
-              <li>Spring</li>
-              <li>Maven</li>
-              <li>REST APIs</li>
-              <li>HTML & CSS</li>
-            </ul>
-            <h3>Education</h3>
-            <p class="muted">B.Tech in Computer Science</p>
-          </aside>
-        </section>
-
-        <section id="work" class="card">
-          <h3>Selected Projects</h3>
-          <ul class="projects">
-            <li>
-              <strong>E-Commerce Web Application</strong>
-              <p class="muted">Java, Spring Boot, MySQL — full-stack e-commerce platform.</p>
-              <ul class="project-points">
-                <li>Developed a full-stack E-Commerce application using Spring Boot and REST APIs.</li>
-                <li>Implemented backend services with JPA/Hibernate, validations, and exception handling.</li>
-                <li>Designed relational database schema and optimized SQL queries using MySQL.</li>
-                <li>Built responsive UI using HTML, CSS, and Bootstrap.</li>
-                <li>Implemented secure user authentication and role-based access control.</li>
-              </ul>
-            </li>
-
-            <li>
-              <strong>Student Performance Prediction System</strong>
-              <p class="muted">Java, Spring Boot, Machine Learning — AI-assisted performance forecasting.</p>
-              <ul class="project-points">
-                <li>Built a prediction system to analyze academic data and forecast student performance.</li>
-                <li>Integrated a Python-based ML model with Java backend using REST APIs.</li>
-                <li>Stored and managed prediction results using MySQL.</li>
-                <li>Designed microservice-style architecture for AI integration.</li>
-                <li>Gained exposure to AI + backend integration and real-time data handling.</li>
-              </ul>
-            </li>
+        <div class="hero-card">
+          <div class="profile-chip"><span>DC</span></div>
+          <h2>Deepthi C</h2>
+          <p class="profile-role">Java | Spring Boot | MySQL | AI / ML</p>
+          <ul class="profile-details">
+            <li><span>Email</span><a href="mailto:deepthic1809@gmail.com">deepthic1809@gmail.com</a></li>
+            <li><span>Phone</span><a href="tel:8123402375">8123402375</a></li>
+            <li><span>Location</span>India</li>
           </ul>
-        </section>
+        </div>
+      </section>
 
-        <section id="contact" class="card">
-          <h3>Contact</h3>
-          <p>Reach out via email or phone — happy to discuss opportunities.</p>
-          <p><a href="mailto:deepthic1809@gmail.com" class="link">deepthic1809@gmail.com</a></p>
-        </section>
-      </main>
+      <section id="about" class="section">
+        <div class="section-intro">
+          <h2>About Me</h2>
+          <p>I’m a Java-focused full-stack developer delivering scalable web applications with clean architecture and modern design. I enjoy integrating analytics, machine learning, and reliable backend systems into production-ready solutions.</p>
+        </div>
 
-      <footer class="footer">© <span id="year"></span> Deepthi C</footer>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span>5+</span>
+            <p>Years Experience</p>
+          </div>
+          <div class="stat-card">
+            <span>2</span>
+            <p>Major Projects</p>
+          </div>
+          <div class="stat-card">
+            <span>Java</span>
+            <p>Primary Stack</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section section-projects">
+        <h2>Selected Projects</h2>
+
+        <div class="project-list">
+          <article class="project-card">
+            <h3>E-Commerce Web Application</h3>
+            <p class="project-sub">Java, Spring Boot, MySQL, Bootstrap</p>
+            <ul>
+              <li>Built a full-stack e-commerce platform with REST APIs.</li>
+              <li>Implemented JPA/Hibernate, validations, and secure authentication.</li>
+              <li>Designed optimized MySQL schema and responsive UI.</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <h3>Student Performance Prediction System</h3>
+            <p class="project-sub">Java, Spring Boot, Python ML, MySQL</p>
+            <ul>
+              <li>Developed a predictive analytics system for academic performance.</li>
+              <li>Integrated Python ML models with Java backend APIs.</li>
+              <li>Enabled real-time predictions and result storage in MySQL.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="section-intro">
+          <h2>Contact</h2>
+          <p>Interested in collaborating or hiring? Reach out and let’s build something impactful together.</p>
+        </div>
+
+        <div class="contact-card">
+          <a href="mailto:deepthic1809@gmail.com">deepthic1809@gmail.com</a>
+          <a href="tel:8123402375">8123402375</a>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> Deepthi C</p>
+      </footer>
     </div>
 
-    <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   </body>
 </html>
